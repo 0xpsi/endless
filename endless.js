@@ -2,7 +2,8 @@
 // by Jonny Bursa
 // April 15, 2020
 
-var screen;
+// Object representing the game display
+var screen = {};
 screen.clear = function(color){
 	//screen.context.clearRect(0, 0, screen.canvas.width, screen.canvas.height);
 	this.context.fillStyle = color;
